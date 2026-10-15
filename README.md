@@ -88,8 +88,9 @@ results/judgments/{judge}/   {model}__{condition}.jsonl
 | `harmbench_val191.json` | HarmBench's 200 standard behaviors minus the 9 also in JBB | [Arditi et al.](https://github.com/andyrdt/refusal_direction) @ `9d852fa` |
 | `train_harmful128.json` / `train_harmless128.json` | Train prompts (sanity check, neuron discovery) | Arditi et al., their seed-42 sample |
 
-`results/generations/` contains jailbroken model outputs. That's fine in this private repo, but
-remove it before making the repo public.
+Model responses in `results/generations/` contain jailbroken text, so they are gitignored. Share them
+directly with teammates who need to run a judge. Committed results are the figure, the numbers
+CSV, the sanity checks, and the judges' per-prompt verdicts, which contain no model text.
 
 ## Citation
 

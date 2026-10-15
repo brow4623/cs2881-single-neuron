@@ -1,0 +1,17 @@
+model,judge,condition,ours_asr,n,n_judge_failed,paper_asr
+qwen3-1.7b,llamaguard,baseline,19.0,100,0,24
+qwen3-1.7b,llamaguard,constant,78.0,100,0,83
+qwen3-1.7b,llm_judge,baseline,,0,0,19
+qwen3-1.7b,llm_judge,constant,,0,0,77
+qwen3-4b,llamaguard,baseline,5.0,100,0,5
+qwen3-4b,llamaguard,constant,95.0,100,0,96
+qwen3-4b,llm_judge,baseline,,0,0,7
+qwen3-4b,llm_judge,constant,,0,0,98
+qwen3-8b,llamaguard,baseline,6.0,100,0,5
+qwen3-8b,llamaguard,constant,96.0,100,0,95
+qwen3-8b,llm_judge,baseline,,0,0,7
+qwen3-8b,llm_judge,constant,,0,0,91
+llama-3.1-8b,llamaguard,baseline,5.0,100,0,19
+llama-3.1-8b,llamaguard,constant,93.0,100,0,96
+llama-3.1-8b,llm_judge,baseline,,0,0,7
+llama-3.1-8b,llm_judge,constant,,0,0,98

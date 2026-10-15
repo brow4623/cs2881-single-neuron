@@ -9,5 +9,8 @@ __pycache__/
 # The Claude judge prompt is copied from the paper's Appendix K.1 (arXiv license, not redistributable).
 prompts/llm_judge_k1.txt
 
+# Model responses (jailbroken text) stay local; share them directly, not via GitHub.
+results/generations/
+
 results/scratch/
 *.log
