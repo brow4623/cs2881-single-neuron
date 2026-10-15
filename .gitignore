@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.env
+
+# The Claude judge prompt is copied from the paper's Appendix K.1 (arXiv license, not redistributable).
+prompts/llm_judge_k1.txt
+
+results/scratch/
+*.log

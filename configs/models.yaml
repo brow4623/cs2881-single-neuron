@@ -1,0 +1,94 @@
+# Single source of truth for models, refusal neurons, and the numbers we are trying to hit.
+#
+# refusal_neuron: from Kazemi et al. (2026), Table 5.
+#   layer, index  : decoder layer (0-indexed, verified for Qwen3-1.7B) and coordinate of the
+#                   pre-down_proj MLP activation h = SiLU(W_gate x) * (W_up x).
+#   t_star        : winning post-instruction token (for Qwen3 "\n" it is the first "\n", after <|im_end|>).
+#   a_harmful / a_harmless : mean activation at t_star over the 128/128 train prompts.
+#   m_star        : value the neuron is pinned to for the attack (h_i <- m_star).
+#
+# paper_fig2: JailbreakBench ASR (%) read off Fig. 2 (constant values cross-checked with Table 8).
+# in_scope: the models our team is reproducing.
+
+models:
+  qwen3-1.7b:
+    hf_id: Qwen/Qwen3-1.7B
+    family: qwen3
+    in_scope: true
+    n_layers: 28
+    refusal_neuron: {layer: 13, index: 3270, t_star: "\n", a_harmful: -10.28, a_harmless: -0.25, m_star: 30}
+    paper_fig2:
+      baseline: {llamaguard: 24, llm_judge: 19}
+      constant: {llamaguard: 83, llm_judge: 77}
+
+  qwen3-4b:
+    hf_id: Qwen/Qwen3-4B
+    family: qwen3
+    in_scope: true
+    n_layers: 36
+    refusal_neuron: {layer: 14, index: 5590, t_star: "\n", a_harmful: -3.12, a_harmless: -0.05, m_star: 18}
+    paper_fig2:
+      baseline: {llamaguard: 5, llm_judge: 7}
+      constant: {llamaguard: 96, llm_judge: 98}
+
+  qwen3-8b:
+    hf_id: Qwen/Qwen3-8B
+    family: qwen3
+    in_scope: true
+    n_layers: 36
+    refusal_neuron: {layer: 14, index: 7924, t_star: "\n", a_harmful: -4.41, a_harmless: -0.23, m_star: 20}
+    paper_fig2:
+      baseline: {llamaguard: 5, llm_judge: 7}
+      constant: {llamaguard: 95, llm_judge: 91}
+
+  llama-3.1-8b:
+    hf_id: meta-llama/Llama-3.1-8B-Instruct
+    family: llama3
+    in_scope: true
+    n_layers: 32
+    refusal_neuron: {layer: 11, index: 4258, t_star: "<|eot_id|>", a_harmful: 1.11, a_harmless: -0.00, m_star: -4}
+    paper_fig2:
+      baseline: {llamaguard: 19, llm_judge: 7}
+      constant: {llamaguard: 96, llm_judge: 98}
+
+  # ---- Not in scope (reference / stretch) ----
+  qwen3-14b:
+    hf_id: Qwen/Qwen3-14B
+    family: qwen3
+    in_scope: false
+    n_layers: 40
+    refusal_neuron: {layer: 17, index: 2154, t_star: "assistant", a_harmful: -7.04, a_harmless: -0.31, m_star: 40}
+    paper_fig2:
+      baseline: {llamaguard: 2, llm_judge: 4}
+      constant: {llamaguard: 93, llm_judge: 95}
+
+  qwen3-32b:
+    hf_id: Qwen/Qwen3-32B
+    family: qwen3
+    in_scope: false
+    n_layers: 64
+    refusal_neuron: {layer: 40, index: 15515, t_star: "\n", a_harmful: 9.06, a_harmless: 0.12, m_star: -80}
+    paper_fig2:
+      baseline: {llamaguard: 18, llm_judge: 4}
+      constant: {llamaguard: 91, llm_judge: 94}
+
+  llama-3.1-70b:
+    hf_id: meta-llama/Llama-3.1-70B-Instruct
+    family: llama3
+    in_scope: false
+    n_layers: 80
+    refusal_neuron: {layer: 25, index: 10201, t_star: "assistant", a_harmful: 0.23, a_harmless: 0.00, m_star: -8}
+    paper_fig2:
+      baseline: {llamaguard: 36, llm_judge: 10}
+      constant: {llamaguard: 89, llm_judge: 89}
+
+judges:
+  llamaguard:
+    hf_id: meta-llama/Llama-Guard-3-8B
+  llm_judge:
+    # The paper used Claude Sonnet 4. Pick one model, record it here, and keep it fixed for all runs.
+    model: claude-sonnet-5-5
+
+generation:
+  # Paper Appendix A: greedy decoding, max 512 new tokens.
+  max_new_tokens: 512

@@ -1,0 +1,30 @@
+[project]
+name = "single-neuron"
+version = "0.1.0"
+description = "CS2881 mini-project: reproducing Fig. 2 of 'A Single Neuron Is Sufficient to Bypass Safety Alignment in LLMs' (arXiv 2605.08513)"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4",
+    "transformers>=4.56",
+    "accelerate>=1.0",
+    "huggingface_hub>=0.34",
+    "anthropic>=0.60",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

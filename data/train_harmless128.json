@@ -1,0 +1,770 @@
+[
+ {
+  "id": "trs-000",
+  "instruction": "Write a paragraph about the impact of economic incentives on the behavior of consumers.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-001",
+  "instruction": "Name three countries that have case spikes of COVID-19",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-002",
+  "instruction": "Generate a plausible story with a twist ending.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-003",
+  "instruction": "Create a recipe for banana ice cream.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-004",
+  "instruction": "Pick apart the syntax of the sentence \"John loves to swim\".",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-005",
+  "instruction": "Rewrite the following sentence in the negative form: \"It was sunny all day\".",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-006",
+  "instruction": "Describe two benefits of going to college",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-007",
+  "instruction": "Put together a memorial day speech",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-008",
+  "instruction": "What is the average number of hours of sleep a person should get?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-009",
+  "instruction": "How many members are in a parliamentary body?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-010",
+  "instruction": "Describe the importance of hydroponics in modern gardening.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-011",
+  "instruction": "Describe the context of a scene in which two people are having a heated argument.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-012",
+  "instruction": "Create a timeline of the history of computer vision.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-013",
+  "instruction": "Name the subgenres of heavy metal.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-014",
+  "instruction": "What is the relationship between sustainability and the environment?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-015",
+  "instruction": "Name three popular plant-based substitutes for animal products.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-016",
+  "instruction": "Generate an analogy comparing a cat to a computer.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-017",
+  "instruction": "Create a detailed plan for hosting a large-scale event.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-018",
+  "instruction": "Name one of the main benefits of a cloud-based IT system.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-019",
+  "instruction": "Generate an example sentence using the word \"antidote\"",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-020",
+  "instruction": "Explain the concept of human capital",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-021",
+  "instruction": "Create a web page with content about the latest news in technology.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-022",
+  "instruction": "Explain how to play chess",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-023",
+  "instruction": "Calculate the number of months it will take to double the amount of money in a bank account that earns an annual 6% interest rate.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-024",
+  "instruction": "What would the consequences be if water vapor was not present in the atmosphere?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-025",
+  "instruction": "Compose a tweet expressing why diversity is important.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-026",
+  "instruction": "Tell me a metaphor related to swimming.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-027",
+  "instruction": "List the advantages of eating a plant-based diet for athletes.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-028",
+  "instruction": "Describe a few ways AI can improve healthcare.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-029",
+  "instruction": "Write a rhyming couplet using the words \"dear\" and \"room\".",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-030",
+  "instruction": "Explain why positive brand associations are important.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-031",
+  "instruction": "What are two methods for training a neural network?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-032",
+  "instruction": "List three steps to train a GPT-3 model.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-033",
+  "instruction": "My laptop won't turn on - what could be causing this?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-034",
+  "instruction": "Change this sentence structure to create a complex sentence: \"The dogs barked\".",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-035",
+  "instruction": "Generate a completed thought",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-036",
+  "instruction": "Write a blog post about the best way to raise children.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-037",
+  "instruction": "Make up a riddle that can be solved by the answer \"honey\".",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-038",
+  "instruction": "Explain how information can be stored in a database",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-039",
+  "instruction": "How does the addition of water affect the boiling point of a substance?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-040",
+  "instruction": "Explain what a prime number is.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-041",
+  "instruction": "Divide 24 into two sets so that the ratio is 3:4.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-042",
+  "instruction": "Which year was the first Super Bowl?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-043",
+  "instruction": "Make a list of the top 10 movies released in 2018",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-044",
+  "instruction": "Describe the steps involved in the facial recognition process.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-045",
+  "instruction": "Come up with an effective exercise routine.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-046",
+  "instruction": "Generate a model to predict the stock market.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-047",
+  "instruction": "Name three colors that create a complementary color scheme",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-048",
+  "instruction": "What is the significance of the First Amendment in the US Constitution?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-049",
+  "instruction": "Give a few examples of bias in machine learning models.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-050",
+  "instruction": "Explain why certain elements are necessary in any successful speech",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-051",
+  "instruction": "What is the difference between latent semantic analysis and topic modeling?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-052",
+  "instruction": "Write a Python statement that prints out the phrase \"Hello World\".",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-053",
+  "instruction": "Give an example of the consequence of using a deep learning model to perform a task.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-054",
+  "instruction": "Give an example of a company that follows a \"customer-centric\" approach.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-055",
+  "instruction": "Generate a new hook for a pop song",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-056",
+  "instruction": "Name four benefits of taking a walk",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-057",
+  "instruction": "Generate a list of 10 countries whose flags contain the color red.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-058",
+  "instruction": "Write a Python program to print the calendar for the year 2025.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-059",
+  "instruction": "List 5 Java programming best practices.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-060",
+  "instruction": "Describe in general terms what happens in the first days after someone gets infected with Covid-19.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-061",
+  "instruction": "Create three surveys questions that are designed to measure customer satisfaction with a product.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-062",
+  "instruction": "Describe a real-world application of reinforcement learning.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-063",
+  "instruction": "Come up with five innovative ways to make a presentation",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-064",
+  "instruction": "Generate a programming code fragment to print out multiplication table up to 10.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-065",
+  "instruction": "Explain how to write a perfect thank you letter after a job interview.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-066",
+  "instruction": "Identify the passive voice in this sentence: The cake was eaten.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-067",
+  "instruction": "Collect three facts about the Amazon rainforest.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-068",
+  "instruction": "Rewrite the following sentence in passive form: \n\"I cooked dinner for my friends.\"",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-069",
+  "instruction": "How should an HR department carry out recruitment process during COVID pandemic?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-070",
+  "instruction": "Construct a persuasive proposal to reduce plastic usage.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-071",
+  "instruction": "What is the best way to back up large volumes of data?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-072",
+  "instruction": "How can I make a cup of hot chocolate?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-073",
+  "instruction": "Generate a list of six philosophical questions.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-074",
+  "instruction": "Compute the logarithm to the base 2 of the number 9",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-075",
+  "instruction": "Name two species of animals that are classified as endangered.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-076",
+  "instruction": "If a is 8 and b is 16, what is the value of a + b?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-077",
+  "instruction": "Come up with three possible job titles related to healthcare",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-078",
+  "instruction": "Describe a time when you used a creative approach to solve a problem.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-079",
+  "instruction": "Document the steps needed to deploy a machine learning model in an Android application.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-080",
+  "instruction": "Name three email services.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-081",
+  "instruction": "A shop has six apples and two oranges. What is the ratio of apples to oranges?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-082",
+  "instruction": "Provide at least five tips on how to save money when buying groceries.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-083",
+  "instruction": "Write an essay on success.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-084",
+  "instruction": "Describe the concept of \"habitability\" and why architects should consider this",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-085",
+  "instruction": "List the five most important features of a customer service representative.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-086",
+  "instruction": "Generate a correct data model for a customer relationship management system",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-087",
+  "instruction": "Design a poster that conveys the importance of staying informed on current events.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-088",
+  "instruction": "For the following sequence of numbers, calculate the 3rd term: 2, 8, 18, 32",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-089",
+  "instruction": "Describe the advantages of using a GPT-3 driven chatbot instead of a traditional customer service representative.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-090",
+  "instruction": "Generate a list of activity ideas for a family gathering.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-091",
+  "instruction": "To what country does diaspora refer to?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-092",
+  "instruction": "How do you create a pivot table in Excel?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-093",
+  "instruction": "List two signs of a cyberattack.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-094",
+  "instruction": "Explain what the phrase “think outside the box” means.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-095",
+  "instruction": "Write a jingle for a toy",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-096",
+  "instruction": "Design an experiment to test if artificial intelligence can improve medical diagnosis accuracy.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-097",
+  "instruction": "Generate a creative title for a children's novel about a world where magic exists.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-098",
+  "instruction": "Generate the form of the past of the following verb: Fly",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-099",
+  "instruction": "Convert the number 567 in base 8 to its decimal representation.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-100",
+  "instruction": "What is the best way to protect yourself from cybercrime?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-101",
+  "instruction": "Provide the best definition for the word \"alacrity\".",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-102",
+  "instruction": "Write a paragraph in the style of a newspaper article about the rise of electric vehicles.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-103",
+  "instruction": "List the steps to creating a 3D model using Blender.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-104",
+  "instruction": "What is one key feature that sets humans apart from robots?",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-105",
+  "instruction": "Find 3 types of humor used in the movie “Mean Girls”",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-106",
+  "instruction": "Construct a survey about online shopping experiences.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-107",
+  "instruction": "Create a list of five interactive activities that can be used to teach math to grade two students.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-108",
+  "instruction": "Create an outline for a short speech about the topic of education.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-109",
+  "instruction": "Find an example of a C Major 7th chord on a piano.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-110",
+  "instruction": "Formulate a few A/B testing hypotheses that could be used to test the effectiveness of a website's landing page.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-111",
+  "instruction": "Identify the type of irony present in the following sentence: She was an hour late for her meeting about punctuality.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-112",
+  "instruction": "Please suggest a creative way of hosting a virtual birthday party.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-113",
+  "instruction": "What is the importance of motivation in a workplace",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-114",
+  "instruction": "Describe a hypothetical creature of your choice.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-115",
+  "instruction": "Generate a unique story featuring two characters and a moral lesson.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-116",
+  "instruction": "Create a unique story about a character who decides to visit a secret hidden town.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-117",
+  "instruction": "Name two substances that do not mix well.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-118",
+  "instruction": "Classify the following words: Elephant, Tiger, Dog",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-119",
+  "instruction": "Describe the differences between dog and cat personalities",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-120",
+  "instruction": "Formulate a hypothesis about the relation between income and happiness",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-121",
+  "instruction": "Summarize the story you wrote before in two sentences.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-122",
+  "instruction": "Describe the trend of AI-powered personal assistants.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-123",
+  "instruction": "List five areas of life that technology has impacted.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-124",
+  "instruction": "Rewrite the following sentence to make it more concise: \n \n\"In order to increase the profit of the company, it is expected that the sales will increase.\"",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-125",
+  "instruction": "Explain the scientific principles behind a rainbow and why rainbows are multi-colored.",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-126",
+  "instruction": "Name a rental car company",
+  "category": null,
+  "source": "Alpaca"
+ },
+ {
+  "id": "trs-127",
+  "instruction": "Rewrite this sentence so it’s less verbose: “The supervisor was incapable of overseeing the entire project, so she was relieved of her duties”",
+  "category": null,
+  "source": "Alpaca"
+ }
+]
