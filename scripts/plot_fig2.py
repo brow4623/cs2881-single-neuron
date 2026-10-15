@@ -23,7 +23,7 @@ from single_neuron import RESULTS_DIR  # noqa: E402
 from single_neuron.config import in_scope_models  # noqa: E402
 from single_neuron.records import CONDITIONS, judgments_path, read_jsonl  # noqa: E402
 
-JUDGE_TITLES = {"llamaguard": "Llama-Guard-3-8B", "llm_judge": "LLM judge (Claude)"}
+JUDGE_TITLES = {"llamaguard": "Llama-Guard-3-8B", "llm_judge": "LLM judge (Claude Sonnet)"}
 CONDITION_LABELS = {"baseline": "No intervention", "constant": "Neuron pinned (constant)"}
 COLORS = {"baseline": "#2a78d6", "constant": "#eb6834"}  # categorical slots 1-2, validated
 INK, INK_2, GRID, SURFACE = "#0b0b0b", "#52514e", "#e6e5e0", "#fcfcfb"
