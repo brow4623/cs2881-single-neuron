@@ -105,6 +105,13 @@ Model responses in `results/generations/` contain jailbroken text, so they are g
 directly with teammates who need to run a judge. Committed results are the figure, the numbers
 CSV, the sanity checks, and the judges' per-prompt verdicts, which contain no model text.
 
+## License
+
+The code is released under the [MIT License](LICENSE). The prompt sets in `data/` come from
+third-party datasets and keep their original licenses: JailbreakBench (MIT), HarmBench (MIT),
+AdvBench (MIT), Arditi et al.'s processed splits (Apache-2.0), and Alpaca (CC BY-NC 4.0,
+non-commercial; used in `train_harmless128.json`).
+
 ## Citation
 
 ```bibtex
